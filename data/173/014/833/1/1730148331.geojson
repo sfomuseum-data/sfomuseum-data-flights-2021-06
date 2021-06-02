@@ -2,10 +2,12 @@
   "id": 1730148331,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-02",
+    "date:cessation_upper": "2021-06-02",
     "date:inception_lower": "2021-06-01",
     "date:inception_upper": "2021-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-01",
+    "edtf:cessation": "2021-06-02T00:29:00Z",
+    "edtf:inception": "2021-06-01T23:15:00Z",
     "flysfo:actual_timestamp": 1622588400,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,19 +38,25 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "156483050"
+    },
     "wof:country": "US",
     "wof:created": 1622649846,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
     "wof:hierarchy": [],
     "wof:id": 1730148331,
     "wof:involves": [
-      102527513, 
-      102527363, 
       1159284261, 
-      -1
+      1159292085, 
+      102527513, 
+      102527363
     ],
-    "wof:lastmodified": 1622649846,
+    "wof:lastmodified": 1622650400,
     "wof:name": "DL9970 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

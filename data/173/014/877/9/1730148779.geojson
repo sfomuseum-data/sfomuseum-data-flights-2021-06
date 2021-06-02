@@ -2,10 +2,12 @@
   "id": 1730148779,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-01",
+    "date:cessation_upper": "2021-06-01",
     "date:inception_lower": "2021-06-01",
     "date:inception_upper": "2021-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-01",
+    "edtf:cessation": "2021-06-01T13:30:17-07:00",
+    "edtf:inception": "2021-06-01T23:10:00Z",
     "flysfo:actual_timestamp": 1622604840,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N460UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156410948",
+      "swim:gufi": "KL07805400"
+    },
     "wof:country": "US",
     "wof:created": 1622649967,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1730148779,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102536579, 
       1159285413, 
       1729792649
     ],
-    "wof:lastmodified": 1622649967,
+    "wof:lastmodified": 1622650401,
     "wof:name": "UA1272 (MEX-SFO)",
     "wof:parent_id": 1729792649,
     "wof:placetype": "event",

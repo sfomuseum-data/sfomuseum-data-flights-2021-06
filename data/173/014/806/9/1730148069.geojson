@@ -2,10 +2,12 @@
   "id": 1730148069,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-02",
+    "date:cessation_upper": "2021-06-02",
     "date:inception_lower": "2021-06-01",
     "date:inception_upper": "2021-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-01",
+    "edtf:cessation": "2021-06-02T02:45:00Z",
+    "edtf:inception": "2021-06-01T23:25:00Z",
     "flysfo:actual_timestamp": 1622602020,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N844VA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156341628"
+    },
     "wof:country": "US",
     "wof:created": 1622649773,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -82,9 +95,10 @@
       102527513, 
       102536481, 
       1159283813, 
-      1729792641
+      1729792641, 
+      1159292085
     ],
-    "wof:lastmodified": 1622649773,
+    "wof:lastmodified": 1622650399,
     "wof:name": "AS1273 (PVR-SFO)",
     "wof:parent_id": 1729792641,
     "wof:placetype": "event",

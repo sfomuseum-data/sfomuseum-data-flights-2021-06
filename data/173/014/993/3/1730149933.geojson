@@ -2,10 +2,12 @@
   "id": 1730149933,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-02",
+    "date:cessation_upper": "2021-06-02",
     "date:inception_lower": "2021-06-01",
     "date:inception_upper": "2021-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-01",
+    "edtf:cessation": "2021-06-02T01:16:00Z",
+    "edtf:inception": "2021-06-01T22:59:00Z",
     "flysfo:actual_timestamp": 1622587920,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-06-01",
@@ -48,6 +50,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156410102"
+    },
     "wof:country": "US",
     "wof:created": 1622650295,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -84,7 +89,7 @@
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1622650295,
+    "wof:lastmodified": 1622650403,
     "wof:name": "WN102 (SFO-DEN)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",

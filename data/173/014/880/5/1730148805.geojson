@@ -2,10 +2,12 @@
   "id": 1730148805,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-01",
+    "date:cessation_upper": "2021-06-01",
     "date:inception_lower": "2021-06-01",
     "date:inception_upper": "2021-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-01",
+    "edtf:cessation": "2021-06-01T20:09:00Z",
+    "edtf:inception": "2021-06-01T15:10:00Z",
     "flysfo:actual_timestamp": 1622578440,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528817,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156371474",
+      "swim:gufi": "KW44515300"
+    },
     "wof:country": "US",
     "wof:created": 1622649974,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1730148805,
     "wof:involves": [
-      102527513, 
       102528817, 
       1159285413, 
-      1729792531
+      1729792531, 
+      1159289965, 
+      102527513
     ],
-    "wof:lastmodified": 1622649974,
+    "wof:lastmodified": 1622650401,
     "wof:name": "UA1742 (IAD-SFO)",
     "wof:parent_id": 1729792531,
     "wof:placetype": "event",
