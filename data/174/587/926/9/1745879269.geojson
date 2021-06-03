@@ -2,10 +2,12 @@
   "id": 1745879269,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-02",
     "date:inception_upper": "2021-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-02",
+    "edtf:cessation": "2021-06-03T03:11:00Z",
+    "edtf:inception": "2021-06-02T22:31:00Z",
     "flysfo:actual_timestamp": 1622690040,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-06-02",
@@ -21,6 +23,7 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
@@ -34,6 +37,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156486924"
+    },
     "wof:country": "US",
     "wof:created": 1622736119,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -84,7 +95,7 @@
       1159283597, 
       1729792655
     ],
-    "wof:lastmodified": 1622736119,
+    "wof:lastmodified": 1622736742,
     "wof:name": "AC745 (YYZ-SFO)",
     "wof:parent_id": 1729792655,
     "wof:placetype": "event",

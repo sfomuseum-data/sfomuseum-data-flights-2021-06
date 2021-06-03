@@ -2,10 +2,12 @@
   "id": 1745879605,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-02",
+    "date:cessation_upper": "2021-06-02",
     "date:inception_lower": "2021-06-02",
     "date:inception_upper": "2021-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-02",
+    "edtf:cessation": "2021-06-02T19:04:00Z",
+    "edtf:inception": "2021-06-02T15:40:00Z",
     "flysfo:actual_timestamp": 1622661240,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156450638",
+      "swim:gufi": "KP52861400"
+    },
     "wof:country": "US",
     "wof:created": 1622736212,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1745879605,
     "wof:involves": [
-      102527513, 
-      102531131, 
       1159284261, 
-      1729792465
+      1729792465, 
+      1159292085, 
+      102527513, 
+      102531131
     ],
-    "wof:lastmodified": 1622736212,
+    "wof:lastmodified": 1622736744,
     "wof:name": "DL1202 (MSP-SFO)",
     "wof:parent_id": 1729792465,
     "wof:placetype": "event",

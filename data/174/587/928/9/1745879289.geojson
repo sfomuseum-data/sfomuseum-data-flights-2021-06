@@ -2,10 +2,12 @@
   "id": 1745879289,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-02",
+    "date:cessation_upper": "2021-06-02",
     "date:inception_lower": "2021-06-02",
     "date:inception_upper": "2021-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-02",
+    "edtf:cessation": "2021-06-02T07:09:51Z",
+    "edtf:inception": "2021-06-02T00:28:45Z",
     "flysfo:actual_timestamp": 1622644860,
     "flysfo:airline": "AI",
     "flysfo:date": "2021-06-02",
@@ -48,6 +50,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156458575"
+    },
     "wof:country": "US",
     "wof:created": 1622736126,
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
@@ -84,7 +89,7 @@
       1159283649, 
       1729792671
     ],
-    "wof:lastmodified": 1622736126,
+    "wof:lastmodified": 1622736743,
     "wof:name": "AI173 (DEL-SFO)",
     "wof:parent_id": 1729792671,
     "wof:placetype": "event",

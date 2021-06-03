@@ -2,10 +2,12 @@
   "id": 1745880907,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-02",
     "date:inception_upper": "2021-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-02",
+    "edtf:cessation": "2021-06-03T01:47:00Z",
+    "edtf:inception": "2021-06-02T21:15:00Z",
     "flysfo:actual_timestamp": 1622674800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614921058692055,
     "lbl:longitude": -122.38233552667353,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156480949",
+      "swim:gufi": "KO73087400"
+    },
     "wof:country": "US",
     "wof:created": 1622736541,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1745880907,
     "wof:involves": [
+      1159289411, 
       102526927, 
       102527513, 
       1159284261, 
       1729792477
     ],
-    "wof:lastmodified": 1622736541,
+    "wof:lastmodified": 1622736741,
     "wof:name": "DL1204 (SFO-ATL)",
     "wof:parent_id": 1729792477,
     "wof:placetype": "event",

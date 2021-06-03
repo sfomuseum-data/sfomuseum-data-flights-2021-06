@@ -2,10 +2,12 @@
   "id": 1745880045,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-02",
+    "date:cessation_upper": "2021-06-02",
     "date:inception_lower": "2021-06-02",
     "date:inception_upper": "2021-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-02",
+    "edtf:cessation": "2021-06-02T18:17:00Z",
+    "edtf:inception": "2021-06-02T17:27:00Z",
     "flysfo:actual_timestamp": 1622657880,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-06-02",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +53,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156460974"
+    },
     "wof:country": "US",
     "wof:created": 1622736324,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -84,7 +92,7 @@
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1622736324,
+    "wof:lastmodified": 1622736743,
     "wof:name": "WN1578 (BUR-SFO)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",
