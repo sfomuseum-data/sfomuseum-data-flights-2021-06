@@ -2,10 +2,12 @@
   "id": 1745883883,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-03",
     "date:inception_upper": "2021-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-03",
+    "edtf:cessation": "2021-06-03T02:14:53-07:00",
+    "edtf:inception": "2021-06-03T15:18:00Z",
     "flysfo:actual_timestamp": 1622761200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156528870",
+      "swim:gufi": "KL45415500"
+    },
     "wof:country": "US",
     "wof:created": 1622822803,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745883883,
     "wof:involves": [
+      1729792505, 
+      1159292085, 
       102527513, 
       102527209, 
-      1159285413, 
-      1729792505
+      1159285413
     ],
-    "wof:lastmodified": 1622822803,
+    "wof:lastmodified": 1622823282,
     "wof:name": "UA1852 (LAS-SFO)",
     "wof:parent_id": 1729792505,
     "wof:placetype": "event",

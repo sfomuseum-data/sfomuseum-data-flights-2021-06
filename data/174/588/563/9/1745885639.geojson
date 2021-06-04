@@ -2,10 +2,12 @@
   "id": 1745885639,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-03",
     "date:inception_upper": "2021-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-03",
+    "edtf:cessation": "2021-06-03T19:09:00Z",
+    "edtf:inception": "2021-06-03T18:19:00Z",
     "flysfo:actual_timestamp": 1622761200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156545194",
+      "swim:gufi": "KO54181500"
+    },
     "wof:country": "US",
     "wof:created": 1622823255,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745885639,
     "wof:involves": [
-      102527337, 
-      102527513, 
       1159285413, 
-      1745882315
+      1745882315, 
+      1159289407, 
+      102527337, 
+      102527513
     ],
-    "wof:lastmodified": 1622823255,
+    "wof:lastmodified": 1622823285,
     "wof:name": "UA731 (SFO-SBA)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "event",

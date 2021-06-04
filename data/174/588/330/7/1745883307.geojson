@@ -2,10 +2,12 @@
   "id": 1745883307,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-03",
     "date:inception_upper": "2021-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-03",
+    "edtf:cessation": "2021-06-03T02:04:09-07:00",
+    "edtf:inception": "2021-06-03T14:24:00Z",
     "flysfo:actual_timestamp": 1622761200,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-06-03",
@@ -21,6 +23,7 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
@@ -34,6 +37,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156523491",
+      "swim:gufi": "KU48360505"
+    },
     "wof:country": "US",
     "wof:created": 1622822651,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -84,7 +96,7 @@
       1159284261, 
       1729792469
     ],
-    "wof:lastmodified": 1622822651,
+    "wof:lastmodified": 1622823281,
     "wof:name": "DL1303 (SLC-SFO)",
     "wof:parent_id": 1729792469,
     "wof:placetype": "event",

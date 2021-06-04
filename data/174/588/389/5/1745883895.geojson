@@ -2,10 +2,12 @@
   "id": 1745883895,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-03",
     "date:inception_upper": "2021-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-03",
+    "edtf:cessation": "2021-06-03T02:30:44-07:00",
+    "edtf:inception": "2021-06-03T13:14:00Z",
     "flysfo:actual_timestamp": 1622761200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156518210",
+      "swim:gufi": "KH32866500"
+    },
     "wof:country": "US",
     "wof:created": 1622822806,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745883895,
     "wof:involves": [
+      1159289407, 
       102527513, 
       102521851, 
       1159285413, 
       1729792567
     ],
-    "wof:lastmodified": 1622822806,
+    "wof:lastmodified": 1622823282,
     "wof:name": "UA2123 (AUS-SFO)",
     "wof:parent_id": 1729792567,
     "wof:placetype": "event",

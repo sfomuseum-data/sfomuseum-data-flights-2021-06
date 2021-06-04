@@ -2,10 +2,12 @@
   "id": 1745883353,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-03",
     "date:inception_upper": "2021-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-03",
+    "edtf:cessation": "2021-06-03T03:01:06-07:00",
+    "edtf:inception": "2021-06-03T12:50:00Z",
     "flysfo:actual_timestamp": 1622761200,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156517511",
+      "swim:gufi": "KC42361501"
+    },
     "wof:country": "US",
     "wof:created": 1622822664,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745883353,
     "wof:involves": [
+      1159289411, 
       102527513, 
       102525635, 
       1159284261, 
       1729792465
     ],
-    "wof:lastmodified": 1622822664,
+    "wof:lastmodified": 1622823285,
     "wof:name": "DL712 (DTW-SFO)",
     "wof:parent_id": 1729792465,
     "wof:placetype": "event",

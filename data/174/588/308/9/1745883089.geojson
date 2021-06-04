@@ -2,10 +2,12 @@
   "id": 1745883089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-03",
+    "date:cessation_upper": "2021-06-03",
     "date:inception_lower": "2021-06-03",
     "date:inception_upper": "2021-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-03",
+    "edtf:cessation": "2021-06-03T17:08:49Z",
+    "edtf:inception": "2021-06-03T15:42:00Z",
     "flysfo:actual_timestamp": 1622761200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156532263"
+    },
     "wof:country": "US",
     "wof:created": 1622822586,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1745883089,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102532251, 
       1159283813, 
       1729792399
     ],
-    "wof:lastmodified": 1622822586,
+    "wof:lastmodified": 1622823280,
     "wof:name": "AS1200 (PDX-SFO)",
     "wof:parent_id": 1729792399,
     "wof:placetype": "event",
