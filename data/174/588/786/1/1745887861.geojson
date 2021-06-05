@@ -2,10 +2,12 @@
   "id": 1745887861,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-04",
+    "date:cessation_upper": "2021-06-04",
     "date:inception_lower": "2021-06-04",
     "date:inception_upper": "2021-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-04",
+    "edtf:cessation": "2021-06-04T03:11:04-07:00",
+    "edtf:inception": "2021-06-04T11:45:00Z",
     "flysfo:actual_timestamp": 1622826840,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156597111",
+      "swim:gufi": "KN38462601"
+    },
     "wof:country": "US",
     "wof:created": 1622909053,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -82,9 +95,10 @@
       102527513, 
       102534365, 
       1159284261, 
-      1745882115
+      1745882115, 
+      1159289939
     ],
-    "wof:lastmodified": 1622909053,
+    "wof:lastmodified": 1622909711,
     "wof:name": "DL1722 (JFK-SFO)",
     "wof:parent_id": 1745882115,
     "wof:placetype": "event",

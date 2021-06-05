@@ -2,10 +2,12 @@
   "id": 1745889941,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-05",
+    "date:cessation_upper": "2021-06-05",
     "date:inception_lower": "2021-06-04",
     "date:inception_upper": "2021-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-04",
+    "edtf:cessation": "2021-06-05T00:28:14Z",
+    "edtf:inception": "2021-06-04T23:13:00Z",
     "flysfo:actual_timestamp": 1622847600,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-06-04",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156653826"
+    },
     "wof:country": "US",
     "wof:created": 1622909592,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -84,7 +93,7 @@
       1159285591, 
       1745882151
     ],
-    "wof:lastmodified": 1622909592,
+    "wof:lastmodified": 1622909713,
     "wof:name": "WN366 (SFO-SAN)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",
