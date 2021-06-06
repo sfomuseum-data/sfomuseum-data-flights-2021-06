@@ -2,10 +2,12 @@
   "id": 1745893193,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-06-05",
-    "date:inception_upper": "2021-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-05",
+    "date:cessation_lower": "2021-06-06",
+    "date:cessation_upper": "2021-06-06",
+    "date:inception_lower": "2021-06-06",
+    "date:inception_upper": "2021-06-06",
+    "edtf:cessation": "2021-06-06T03:00:04Z",
+    "edtf:inception": "2021-06-06T01:30:00Z",
     "flysfo:actual_timestamp": 1622942100,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.612295,
     "geom:longitude": -116.5547415,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534217,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO82999700"
+    },
     "wof:country": "US",
     "wof:created": 1622995957,
     "wof:geomhash": "9f2aefec298b0356dc0b4065c5b61f73",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1745893193,
     "wof:involves": [
+      1159292085, 
       102534217, 
       102527513, 
       1159285413, 
       1745882255
     ],
-    "wof:lastmodified": 1622995957,
+    "wof:lastmodified": 1622996046,
     "wof:name": "UA2020 (SFO-JAC)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",
