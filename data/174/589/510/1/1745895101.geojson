@@ -2,10 +2,12 @@
   "id": 1745895101,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-06",
+    "date:cessation_upper": "2021-06-06",
     "date:inception_lower": "2021-06-06",
     "date:inception_upper": "2021-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-06",
+    "edtf:cessation": "2021-06-06T10:12:09-07:00",
+    "edtf:inception": "2021-06-06T22:03:00Z",
     "flysfo:actual_timestamp": 1623020400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.6967075,
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530815,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156796825",
+      "swim:gufi": "KU73736100"
+    },
     "wof:country": "US",
     "wof:created": 1623082048,
     "wof:geomhash": "acf2ad4ec949b4135a187e5a7cb03262",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745895101,
     "wof:involves": [
+      1159289407, 
       102527513, 
       102530815, 
       1159285413, 
       1745882255
     ],
-    "wof:lastmodified": 1623082048,
+    "wof:lastmodified": 1623082545,
     "wof:name": "UA235 (BZN-SFO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",
