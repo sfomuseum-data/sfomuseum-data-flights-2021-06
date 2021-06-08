@@ -2,10 +2,12 @@
   "id": 1745900111,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-08",
+    "date:cessation_upper": "2021-06-08",
     "date:inception_lower": "2021-06-07",
     "date:inception_upper": "2021-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-07",
+    "edtf:cessation": "2021-06-08T01:14:00Z",
+    "edtf:inception": "2021-06-07T07:35:46-07:00",
     "flysfo:actual_timestamp": 1623100500,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156867301",
+      "swim:gufi": "KO67010200"
+    },
     "wof:country": "US",
     "wof:created": 1623168913,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745900111,
     "wof:involves": [
-      102533631, 
-      102527513, 
       1159285413, 
-      1745882277
+      1745882277, 
+      1377564285, 
+      102533631, 
+      102527513
     ],
-    "wof:lastmodified": 1623168913,
+    "wof:lastmodified": 1623168942,
     "wof:name": "UA624 (SFO-ORD)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "event",

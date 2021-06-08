@@ -2,10 +2,12 @@
   "id": 1745899957,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-08",
+    "date:cessation_upper": "2021-06-08",
     "date:inception_lower": "2021-06-07",
     "date:inception_upper": "2021-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-07",
+    "edtf:cessation": "2021-06-08T01:18:14Z",
+    "edtf:inception": "2021-06-07T20:31:00Z",
     "flysfo:actual_timestamp": 1623096720,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.795441,
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533243,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156863414",
+      "swim:gufi": "KO64622200"
+    },
     "wof:country": "US",
     "wof:created": 1623168873,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745899957,
     "wof:involves": [
+      1745882249, 
+      1159289871, 
       102533243, 
       102527513, 
-      1159285413, 
-      1745882249
+      1159285413
     ],
-    "wof:lastmodified": 1623168873,
+    "wof:lastmodified": 1623168950,
     "wof:name": "UA469 (SFO-TPA)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "event",
