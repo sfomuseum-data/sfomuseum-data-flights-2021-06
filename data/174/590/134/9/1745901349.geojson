@@ -2,10 +2,12 @@
   "id": 1745901349,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-08",
+    "date:cessation_upper": "2021-06-08",
     "date:inception_lower": "2021-06-08",
     "date:inception_upper": "2021-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-08",
+    "edtf:cessation": "2021-06-08T07:12:00Z",
+    "edtf:inception": "2021-06-08T06:06:00Z",
     "flysfo:actual_timestamp": 1623136440,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-06-08",
@@ -48,6 +50,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156888417"
+    },
     "wof:country": "US",
     "wof:created": 1623254775,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -84,7 +89,7 @@
       1159285591, 
       1745882155
     ],
-    "wof:lastmodified": 1623254775,
+    "wof:lastmodified": 1623255333,
     "wof:name": "WN2343 (SAN-SFO)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "event",

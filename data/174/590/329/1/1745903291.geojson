@@ -2,10 +2,12 @@
   "id": 1745903291,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-08",
+    "date:cessation_upper": "2021-06-08",
     "date:inception_lower": "2021-06-08",
     "date:inception_upper": "2021-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-08",
+    "edtf:cessation": "2021-06-08T21:29:00Z",
+    "edtf:inception": "2021-06-08T20:20:00Z",
     "flysfo:actual_timestamp": 1623182940,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +55,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156937947",
+      "swim:gufi": "KO62872300"
+    },
     "wof:country": "US",
     "wof:created": 1623255300,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1745903291,
     "wof:involves": [
+      1159289407, 
       102527209, 
       102527513, 
       1159285413, 
       1745882313
     ],
-    "wof:lastmodified": 1623255300,
+    "wof:lastmodified": 1623255337,
     "wof:name": "UA634 (SFO-LAS)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "event",

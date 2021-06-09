@@ -2,10 +2,12 @@
   "id": 1745900859,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-08",
+    "date:cessation_upper": "2021-06-08",
     "date:inception_lower": "2021-06-08",
     "date:inception_upper": "2021-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-08",
+    "edtf:cessation": "2021-06-08T18:20:55Z",
+    "edtf:inception": "2021-06-08T16:27:00Z",
     "flysfo:actual_timestamp": 1623176580,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-06-08",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "156917660"
+    },
     "wof:country": "US",
     "wof:created": 1623254638,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -84,7 +92,7 @@
       1159283813, 
       1745882097
     ],
-    "wof:lastmodified": 1623254638,
+    "wof:lastmodified": 1623255332,
     "wof:name": "AS405 (SEA-SFO)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "event",

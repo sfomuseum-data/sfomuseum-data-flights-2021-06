@@ -2,10 +2,12 @@
   "id": 1745902465,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-09",
+    "date:cessation_upper": "2021-06-09",
     "date:inception_lower": "2021-06-08",
     "date:inception_upper": "2021-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-08",
+    "edtf:cessation": "2021-06-09T11:13:28Z",
+    "edtf:inception": "2021-06-08T23:01:00Z",
     "flysfo:actual_timestamp": 1623193200,
     "flysfo:airline": "CI",
     "flysfo:date": "2021-06-08",
@@ -34,7 +36,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "157004042"
+    },
     "wof:country": "US",
     "wof:created": 1623255080,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
@@ -46,7 +55,7 @@
       1159284153, 
       -1
     ],
-    "wof:lastmodified": 1623255080,
+    "wof:lastmodified": 1623255335,
     "wof:name": "CI5107 (SFO-TPE)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
