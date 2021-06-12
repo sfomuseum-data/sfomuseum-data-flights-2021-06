@@ -2,10 +2,12 @@
   "id": 1745923539,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-12",
+    "date:cessation_upper": "2021-06-12",
     "date:inception_lower": "2021-06-11",
     "date:inception_upper": "2021-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-11",
+    "edtf:cessation": "2021-06-12T00:44:00Z",
+    "edtf:inception": "2021-06-11T19:24:00Z",
     "flysfo:actual_timestamp": 1623452400,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-06-11",
@@ -48,6 +50,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157184663"
+    },
     "wof:country": "US",
     "wof:created": 1623514423,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -84,7 +89,7 @@
       1159284583, 
       1745882141
     ],
-    "wof:lastmodified": 1623514423,
+    "wof:lastmodified": 1623514602,
     "wof:name": "B6416 (SFO-JFK)",
     "wof:parent_id": 1745882141,
     "wof:placetype": "event",

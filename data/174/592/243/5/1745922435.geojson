@@ -2,10 +2,12 @@
   "id": 1745922435,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-11",
+    "date:cessation_upper": "2021-06-11",
     "date:inception_lower": "2021-06-11",
     "date:inception_upper": "2021-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-11",
+    "edtf:cessation": "2021-06-11T16:48:00Z",
+    "edtf:inception": "2021-06-11T15:18:00Z",
     "flysfo:actual_timestamp": 1623430260,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157159105",
+      "swim:gufi": "KS42299600"
+    },
     "wof:country": "US",
     "wof:created": 1623514139,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1745922435,
     "wof:involves": [
-      102527513, 
       102532251, 
       1159285413, 
-      1745882309
+      1745882309, 
+      1159289407, 
+      102527513
     ],
-    "wof:lastmodified": 1623514139,
+    "wof:lastmodified": 1623514605,
     "wof:name": "UA587 (PDX-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",
