@@ -2,10 +2,12 @@
   "id": 1745924555,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-13",
+    "date:cessation_upper": "2021-06-13",
     "date:inception_lower": "2021-06-12",
     "date:inception_upper": "2021-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-12",
+    "edtf:cessation": "2021-06-13T03:40:05Z",
+    "edtf:inception": "2021-06-12T23:27:00Z",
     "flysfo:actual_timestamp": 1623538800,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-06-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,19 +38,25 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "157290281"
+    },
     "wof:country": "US",
     "wof:created": 1623600200,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
     "wof:hierarchy": [],
     "wof:id": 1745924555,
     "wof:involves": [
+      1159289871, 
       102527513, 
       102536579, 
-      1159283539, 
-      -1
+      1159283539
     ],
-    "wof:lastmodified": 1623600200,
+    "wof:lastmodified": 1623600933,
     "wof:name": "AM664 (MEX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

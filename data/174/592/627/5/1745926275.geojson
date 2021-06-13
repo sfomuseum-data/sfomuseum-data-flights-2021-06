@@ -2,10 +2,12 @@
   "id": 1745926275,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-12",
+    "date:cessation_upper": "2021-06-12",
     "date:inception_lower": "2021-06-12",
     "date:inception_upper": "2021-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-12",
+    "edtf:cessation": "2021-06-12T19:58:34Z",
+    "edtf:inception": "2021-06-12T15:02:00Z",
     "flysfo:actual_timestamp": 1623509340,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-06-12",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157246252"
+    },
     "wof:country": "US",
     "wof:created": 1623600680,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -84,7 +92,7 @@
       1159283813, 
       1745882105
     ],
-    "wof:lastmodified": 1623600680,
+    "wof:lastmodified": 1623600939,
     "wof:name": "AS821 (SFO-OGG)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "event",
