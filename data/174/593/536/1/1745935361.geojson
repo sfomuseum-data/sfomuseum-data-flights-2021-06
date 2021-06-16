@@ -2,10 +2,12 @@
   "id": 1745935361,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-15",
+    "date:cessation_upper": "2021-06-15",
     "date:inception_lower": "2021-06-15",
     "date:inception_upper": "2021-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-15",
+    "edtf:cessation": "2021-06-15T13:25:20-07:00",
+    "edtf:inception": "2021-06-15T23:26:00Z",
     "flysfo:actual_timestamp": 1623814320,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61851220158672,
     "lbl:longitude": -122.39341563178623,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +55,10 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157516336",
+      "swim:gufi": "KL75751300"
+    },
     "wof:country": "US",
     "wof:created": 1623859635,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1745935361,
     "wof:involves": [
-      102527513, 
       102536579, 
       1159285413, 
-      1745882425
+      1745882425, 
+      1159289407, 
+      102527513
     ],
-    "wof:lastmodified": 1623859635,
+    "wof:lastmodified": 1623860143,
     "wof:name": "UA1272 (MEX-SFO)",
     "wof:parent_id": 1745882425,
     "wof:placetype": "event",

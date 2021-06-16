@@ -2,10 +2,12 @@
   "id": 1745934195,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-06-15",
-    "date:inception_upper": "2021-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-15",
+    "date:cessation_lower": "2021-06-15",
+    "date:cessation_upper": "2021-06-15",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-06-15T14:24:54-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1623817800,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.610999204937734,
     "lbl:longitude": -122.3855542651668,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -79,12 +86,13 @@
     ],
     "wof:id": 1745934195,
     "wof:involves": [
+      1159289871, 
       102527513, 
       102533631, 
       1159283849, 
       1745882159
     ],
-    "wof:lastmodified": 1623859293,
+    "wof:lastmodified": 1623860136,
     "wof:name": "AA1253 (ORD-SFO)",
     "wof:parent_id": 1745882159,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1745935093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-15",
+    "date:cessation_upper": "2021-06-15",
     "date:inception_lower": "2021-06-15",
     "date:inception_upper": "2021-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-15",
+    "edtf:cessation": "2021-06-15T06:53:02Z",
+    "edtf:inception": "2021-06-15T01:54:00Z",
     "flysfo:actual_timestamp": 1623740760,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-06-15",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157442274"
+    },
     "wof:country": "US",
     "wof:created": 1623859562,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -84,7 +89,7 @@
       1159284583, 
       1745882357
     ],
-    "wof:lastmodified": 1623859562,
+    "wof:lastmodified": 1623860140,
     "wof:name": "B6963 (MCO-SFO)",
     "wof:parent_id": 1745882357,
     "wof:placetype": "event",
