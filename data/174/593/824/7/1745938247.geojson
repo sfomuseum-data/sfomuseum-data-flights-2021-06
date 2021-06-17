@@ -2,10 +2,12 @@
   "id": 1745938247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-16",
+    "date:cessation_upper": "2021-06-16",
     "date:inception_lower": "2021-06-16",
     "date:inception_upper": "2021-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-16",
+    "edtf:cessation": "2021-06-16T13:53:50Z",
+    "edtf:inception": "2021-06-16T12:57:00Z",
     "flysfo:actual_timestamp": 1623852000,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-06-16",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157544689"
+    },
     "wof:country": "US",
     "wof:created": 1623945982,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,7 +93,7 @@
       1159284583, 
       1745882141
     ],
-    "wof:lastmodified": 1623945982,
+    "wof:lastmodified": 1623946556,
     "wof:name": "B62836 (LAX-SFO)",
     "wof:parent_id": 1745882141,
     "wof:placetype": "event",

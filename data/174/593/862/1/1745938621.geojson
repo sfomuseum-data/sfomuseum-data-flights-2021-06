@@ -2,10 +2,12 @@
   "id": 1745938621,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-16",
+    "date:cessation_upper": "2021-06-16",
     "date:inception_lower": "2021-06-16",
     "date:inception_upper": "2021-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-16",
+    "edtf:cessation": "2021-06-16T16:20:00Z",
+    "edtf:inception": "2021-06-16T12:26:00Z",
     "flysfo:actual_timestamp": 1623884400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "157581812",
+      "swim:gufi": "KG28968400"
+    },
     "wof:country": "US",
     "wof:created": 1623946084,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
     "wof:hierarchy": [],
     "wof:id": 1745938621,
     "wof:involves": [
+      1159289993, 
       102527513, 
       102533631, 
-      1159285413, 
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1623946084,
+    "wof:lastmodified": 1623946558,
     "wof:name": "UA2762 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
