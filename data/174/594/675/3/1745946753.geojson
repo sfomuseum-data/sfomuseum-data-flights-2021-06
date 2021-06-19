@@ -2,10 +2,12 @@
   "id": 1745946753,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-19",
+    "date:cessation_upper": "2021-06-19",
     "date:inception_lower": "2021-06-18",
     "date:inception_upper": "2021-06-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-18",
+    "edtf:cessation": "2021-06-19T03:59:28Z",
+    "edtf:inception": "2021-06-18T11:02:03-07:00",
     "flysfo:actual_timestamp": 1624063740,
     "flysfo:airline": "SY",
     "flysfo:date": "2021-06-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -82,9 +90,10 @@
       102531131, 
       102527513, 
       1159285227, 
-      1745882345
+      1745882345, 
+      1159289871
     ],
-    "wof:lastmodified": 1624119252,
+    "wof:lastmodified": 1624119408,
     "wof:name": "SY396 (SFO-MSP)",
     "wof:parent_id": 1745882345,
     "wof:placetype": "event",

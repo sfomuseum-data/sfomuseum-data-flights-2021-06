@@ -2,10 +2,12 @@
   "id": 1745946087,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-18",
+    "date:cessation_upper": "2021-06-18",
     "date:inception_lower": "2021-06-18",
     "date:inception_upper": "2021-06-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-18",
+    "edtf:cessation": "2021-06-18T21:30:00Z",
+    "edtf:inception": "2021-06-18T16:40:00Z",
     "flysfo:actual_timestamp": 1624033620,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-06-18",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157743459"
+    },
     "wof:country": "US",
     "wof:created": 1624119087,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -84,7 +93,7 @@
       1159283813, 
       1745882105
     ],
-    "wof:lastmodified": 1624119087,
+    "wof:lastmodified": 1624119408,
     "wof:name": "AS1022 (SFO-JFK)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "event",

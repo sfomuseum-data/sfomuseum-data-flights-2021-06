@@ -2,10 +2,12 @@
   "id": 1745946103,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-18",
+    "date:cessation_upper": "2021-06-18",
     "date:inception_lower": "2021-06-18",
     "date:inception_upper": "2021-06-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-18",
+    "edtf:cessation": "2021-06-18T19:11:50Z",
+    "edtf:inception": "2021-06-18T16:37:00Z",
     "flysfo:actual_timestamp": 1624033260,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-06-18",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "157746506"
+    },
     "wof:country": "US",
     "wof:created": 1624119091,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -84,7 +92,7 @@
       1159283813, 
       1745882099
     ],
-    "wof:lastmodified": 1624119091,
+    "wof:lastmodified": 1624119412,
     "wof:name": "AS1434 (SFO-SJD)",
     "wof:parent_id": 1745882099,
     "wof:placetype": "event",
