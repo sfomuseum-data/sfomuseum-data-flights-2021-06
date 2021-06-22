@@ -2,10 +2,12 @@
   "id": 1745954953,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-21",
+    "date:cessation_upper": "2021-06-21",
     "date:inception_lower": "2021-06-21",
     "date:inception_upper": "2021-06-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-21",
+    "edtf:cessation": "2021-06-21T18:35:00Z",
+    "edtf:inception": "2021-06-21T16:22:00Z",
     "flysfo:actual_timestamp": 1624316400,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-06-21",
@@ -34,7 +36,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "157982013"
+    },
     "wof:country": "US",
     "wof:created": 1624377945,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -46,7 +55,7 @@
       1159284401, 
       -1
     ],
-    "wof:lastmodified": 1624377945,
+    "wof:lastmodified": 1624378600,
     "wof:name": "F9663 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
