@@ -2,10 +2,12 @@
   "id": 1745958783,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-22",
+    "date:cessation_upper": "2021-06-22",
     "date:inception_lower": "2021-06-22",
     "date:inception_upper": "2021-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-22",
+    "edtf:cessation": "2021-06-22T23:58:00Z",
+    "edtf:inception": "2021-06-22T23:17:00Z",
     "flysfo:actual_timestamp": 1624406580,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527337,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "158089927",
+      "swim:gufi": "KL73965300"
+    },
     "wof:country": "US",
     "wof:created": 1624464474,
     "wof:geomhash": "aae625247f3652ef8a50cae9f49d2791",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1745958783,
     "wof:involves": [
+      1159289407, 
       102527513, 
       102527337, 
       1159285413, 
       1745882251
     ],
-    "wof:lastmodified": 1624464474,
+    "wof:lastmodified": 1624464986,
     "wof:name": "UA2253 (SBA-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "event",
