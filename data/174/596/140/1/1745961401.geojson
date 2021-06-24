@@ -2,10 +2,12 @@
   "id": 1745961401,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-06-23",
-    "date:inception_upper": "2021-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-23",
+    "date:cessation_lower": "2021-06-23",
+    "date:cessation_upper": "2021-06-23",
+    "date:inception_lower": "2021-06-24",
+    "date:inception_upper": "2021-06-24",
+    "edtf:cessation": "2021-06-23T13:52:21-07:00",
+    "edtf:inception": "2021-06-24T03:02:00Z",
     "flysfo:actual_timestamp": 1624489200,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-06-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7160145,
     "geom:longitude": -120.259968,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528985,
@@ -34,19 +38,25 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KL00356500"
+    },
     "wof:country": "US",
     "wof:created": 1624550707,
     "wof:geomhash": "9eec8aef23fa16d55a8c3ae494470e8a",
     "wof:hierarchy": [],
     "wof:id": 1745961401,
     "wof:involves": [
+      1159289939, 
       102527513, 
       102528985, 
-      1159284261, 
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1624550707,
+    "wof:lastmodified": 1624551365,
     "wof:name": "DL8886 (LGB-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

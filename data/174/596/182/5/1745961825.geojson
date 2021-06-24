@@ -2,10 +2,12 @@
   "id": 1745961825,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-23",
+    "date:cessation_upper": "2021-06-23",
     "date:inception_lower": "2021-06-23",
     "date:inception_upper": "2021-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-23",
+    "edtf:cessation": "2021-06-23T23:55:54Z",
+    "edtf:inception": "2021-06-23T22:25:00Z",
     "flysfo:actual_timestamp": 1624492740,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-06-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61266515122482,
     "lbl:longitude": -122.38444006596885,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "158166149"
+    },
     "wof:country": "US",
     "wof:created": 1624550819,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -82,9 +93,10 @@
       102527513, 
       102526751, 
       1159285591, 
-      1745882149
+      1745882149, 
+      1528104575
     ],
-    "wof:lastmodified": 1624550819,
+    "wof:lastmodified": 1624551368,
     "wof:name": "WN4706 (PHX-SFO)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "event",
