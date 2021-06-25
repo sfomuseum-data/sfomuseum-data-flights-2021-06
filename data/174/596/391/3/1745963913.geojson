@@ -2,10 +2,12 @@
   "id": 1745963913,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-06-24",
-    "date:inception_upper": "2021-06-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-24",
+    "date:cessation_lower": "2021-06-24",
+    "date:cessation_upper": "2021-06-24",
+    "date:inception_lower": "2021-06-25",
+    "date:inception_upper": "2021-06-25",
+    "edtf:cessation": "2021-06-24T16:22:17-07:00",
+    "edtf:inception": "2021-06-25T04:44:00Z",
     "flysfo:actual_timestamp": 1624575600,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-06-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A320",
     "icao:airline": "AAL",
     "lbl:latitude": 37.613222002983164,
     "lbl:longitude": -122.38425114624033,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "158182460",
+      "swim:gufi": "KA06876600"
+    },
     "wof:country": "US",
     "wof:created": 1624636910,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745963913,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102526751, 
       1159283849, 
       1745882143
     ],
-    "wof:lastmodified": 1624636910,
+    "wof:lastmodified": 1624637822,
     "wof:name": "AA686 (PHX-SFO)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "event",
