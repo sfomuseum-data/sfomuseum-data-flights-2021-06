@@ -2,10 +2,12 @@
   "id": 1745974939,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-06-27",
+    "date:cessation_upper": "2021-06-27",
     "date:inception_lower": "2021-06-27",
     "date:inception_upper": "2021-06-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-27",
+    "edtf:cessation": "2021-06-27T06:00:22Z",
+    "edtf:inception": "2021-06-27T01:10:00Z",
     "flysfo:actual_timestamp": 1624778160,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-06-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +55,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "158445523"
+    },
     "wof:country": "US",
     "wof:created": 1624896444,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -79,12 +89,13 @@
     ],
     "wof:id": 1745974939,
     "wof:involves": [
-      102527513, 
-      102533657, 
       1159284583, 
-      1745882341
+      1745882341, 
+      1159292085, 
+      102527513, 
+      102533657
     ],
-    "wof:lastmodified": 1624896444,
+    "wof:lastmodified": 1624897120,
     "wof:name": "B6963 (MCO-SFO)",
     "wof:parent_id": 1745882341,
     "wof:placetype": "event",
