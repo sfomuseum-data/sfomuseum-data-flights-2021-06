@@ -2,10 +2,12 @@
   "id": 1745990603,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-06-30",
-    "date:inception_upper": "2021-06-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-06-30",
+    "date:cessation_lower": "2021-07-01",
+    "date:cessation_upper": "2021-07-01",
+    "date:inception_lower": "2021-07-01",
+    "date:inception_upper": "2021-07-01",
+    "edtf:cessation": "2021-07-01T04:55:08Z",
+    "edtf:inception": "2021-07-01T01:59:00Z",
     "flysfo:actual_timestamp": 1625103180,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-06-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.9938205,
     "geom:longitude": -122.6226995,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527187,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO13202500"
+    },
     "wof:country": "US",
     "wof:created": 1625156312,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1745990603,
     "wof:involves": [
+      1159289407, 
       102527187, 
       102527513, 
       1159285413, 
       1745882247
     ],
-    "wof:lastmodified": 1625156312,
+    "wof:lastmodified": 1625156370,
     "wof:name": "UA651 (SFO-MFR)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "event",
