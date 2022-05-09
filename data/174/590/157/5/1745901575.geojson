@@ -17,19 +17,19 @@
     "flysfo:scheduled_timestamp": 1623220200,
     "flysfo:timestamp": 1623220200,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,35.748611,139.348611,37.617990",
+    "geom:latitude": 36.6833005,
+    "geom:longitude": 8.488834000000004,
     "iata:airline": "UA",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
-    "sfomuseum:departure_id": -1,
+    "sfomuseum:departure_id": 1763661335,
     "sfomuseum:flight_id": "20210608-A-UAL-2587",
     "sfomuseum:flight_number": [
-      "UAL2587", 
+      "UAL2587",
       "UA2587"
     ],
     "sfomuseum:placetype": "flight",
@@ -37,16 +37,20 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1623254837,
-    "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
-    "wof:hierarchy": [],
+    "wof:geomhash": "f7bccc53747e706bd6e4b62854aff8d0",
+    "wof:hierarchy": [
+      {
+        "event_id": 1745901575
+      }
+    ],
     "wof:id": 1745901575,
     "wof:involves": [
-      102527513, 
-      -1, 
-      1159285413, 
+      102527513,
+      -1,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1623254837,
+    "wof:lastmodified": 1652121969,
     "wof:name": "UA2587 (OKO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -55,10 +59,10 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
+    -122.370943,
+    35.748611,
+    139.348611,
     37.61799
   ],
-  "geometry": {"coordinates":[[0,0],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[139.348611,35.748611],[-122.370943,37.61799]],"type":"MultiPoint"}
 }
