@@ -92,10 +92,13 @@
       1729792443,
       1159284583
     ],
-    "wof:lastmodified": 1653096787,
+    "wof:lastmodified": 1717034444,
     "wof:name": "EK6366 (LAX-SFO)",
     "wof:parent_id": 1745882147,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

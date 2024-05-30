@@ -92,10 +92,13 @@
       1729792529,
       1159285413
     ],
-    "wof:lastmodified": 1653096789,
+    "wof:lastmodified": 1717034445,
     "wof:name": "TK9591 (SFO-LAS)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

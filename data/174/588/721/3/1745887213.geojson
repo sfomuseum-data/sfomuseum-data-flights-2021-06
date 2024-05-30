@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102529403,
     "sfomuseum:flight_id": "20210604-A-AAL-756",
     "sfomuseum:flight_number": [
-      "AAL756", 
+      "AAL756",
       "AA756"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1622908867,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745887213
+      }
+    ],
     "wof:id": 1745887213,
     "wof:involves": [
-      102527513, 
-      102529403, 
-      1159283849, 
+      102527513,
+      102529403,
+      1159283849,
       1159289411
     ],
-    "wof:lastmodified": 1622909710,
+    "wof:lastmodified": 1717034440,
     "wof:name": "AA756 (PHL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -75.247885, 
+    -122.370943,
+    37.61799,
+    -75.247885,
     39.880952
   ],
   "geometry": {"coordinates":[[-75.247885,39.880952],[-122.370943,37.61799]],"type":"MultiPoint"}

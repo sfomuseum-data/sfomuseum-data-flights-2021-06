@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210614-D-EAQ-3105",
     "sfomuseum:flight_number": [
-      "EAQ3105", 
+      "EAQ3105",
       "QF3105"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1623773531,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745933201
+      }
+    ],
     "wof:id": 1745933201,
     "wof:involves": [
-      102531023, 
-      102527513, 
-      1159284313, 
-      -1, 
+      102531023,
+      102527513,
+      1159284313,
+      -1,
       1159283849
     ],
-    "wof:lastmodified": 1623773531,
+    "wof:lastmodified": 1717034440,
     "wof:name": "QF3105 (SFO-MIA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.79047, 
-    -80.296006, 
+    -122.370943,
+    25.79047,
+    -80.296006,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-80.296006,25.79047]],"type":"MultiPoint"}

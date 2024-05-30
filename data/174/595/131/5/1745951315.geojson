@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102533591,
     "sfomuseum:flight_id": "20210620-A-DAL-351",
     "sfomuseum:flight_number": [
-      "DAL351", 
+      "DAL351",
       "DL351"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1624291528,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745951315
+      }
+    ],
     "wof:id": 1745951315,
     "wof:involves": [
-      102527513, 
-      102533591, 
-      1159284261, 
+      102527513,
+      102533591,
+      1159284261,
       -1
     ],
-    "wof:lastmodified": 1624291528,
+    "wof:lastmodified": 1717034439,
     "wof:name": "DL351 (PSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.824619, 
-    -116.506042, 
+    -122.370943,
+    33.824619,
+    -116.506042,
     37.61799
   ],
   "geometry": {"coordinates":[[-116.506042,33.824619],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210626-D-AAL-2798",
     "sfomuseum:flight_number": [
-      "AAL2798", 
+      "AAL2798",
       "AA2798"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1624810152,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745972285
+      }
+    ],
     "wof:id": 1745972285,
     "wof:involves": [
-      102528541, 
-      102527513, 
-      1159283849, 
+      102528541,
+      102527513,
+      1159283849,
       -1
     ],
-    "wof:lastmodified": 1624810152,
+    "wof:lastmodified": 1717034440,
     "wof:name": "AA2798 (SFO-DFW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.90366, 
-    -97.050966, 
+    -122.370943,
+    32.90366,
+    -97.050966,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-97.050966,32.90366]],"type":"MultiPoint"}

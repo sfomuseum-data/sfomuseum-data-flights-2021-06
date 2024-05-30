@@ -33,39 +33,46 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210630-A-SWA-9012",
     "sfomuseum:flight_number": [
-      "SWA9012", 
+      "SWA9012",
       "WN9012"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1625155782,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745988697
+      }
+    ],
     "wof:id": 1745988697,
     "wof:involves": [
-      1528104575, 
-      102527513, 
-      102526751, 
+      1528104575,
+      102527513,
+      102526751,
       1159285591
     ],
-    "wof:lastmodified": 1625156374,
+    "wof:lastmodified": 1717034442,
     "wof:name": "WN9012 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

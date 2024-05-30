@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210629-D-BEL-8912",
     "sfomuseum:flight_number": [
-      "BEL8912", 
+      "BEL8912",
       "SN8912"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1625069636,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745983103
+      }
+    ],
     "wof:id": 1745983103,
     "wof:involves": [
-      102530049, 
-      102527513, 
-      1377675597, 
-      -1, 
+      102530049,
+      102527513,
+      1377675597,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1625069636,
+    "wof:lastmodified": 1717034440,
     "wof:name": "SN8912 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-74.177526,40.691243]],"type":"MultiPoint"}

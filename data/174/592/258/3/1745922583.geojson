@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210611-D-AAL-7435",
     "sfomuseum:flight_number": [
-      "AAL7435", 
+      "AAL7435",
       "AA7435"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1623514180,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745922583
+      }
+    ],
     "wof:id": 1745922583,
     "wof:involves": [
-      102521851, 
-      102527513, 
-      1159283849, 
-      -1, 
+      102521851,
+      102527513,
+      1159283849,
+      -1,
       1159283813
     ],
-    "wof:lastmodified": 1623514180,
+    "wof:lastmodified": 1717034440,
     "wof:name": "AA7435 (SFO-AUS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    30.206175, 
-    -97.643029, 
+    -122.370943,
+    30.206175,
+    -97.643029,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-97.643029,30.206175]],"type":"MultiPoint"}

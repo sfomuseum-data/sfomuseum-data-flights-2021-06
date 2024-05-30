@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210623-D-FBU-710",
     "sfomuseum:flight_number": [
-      "FBU710", 
+      "FBU710",
       "BF710"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1624551143,
     "wof:geomhash": "f971d3f872ee602b2fa6051cf4be0e69",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745963053
+      }
+    ],
     "wof:id": 1745963053,
     "wof:involves": [
-      102558779, 
-      102527513, 
-      1377649073, 
+      102558779,
+      102527513,
+      1377649073,
       -1
     ],
-    "wof:lastmodified": 1624551143,
+    "wof:lastmodified": 1717034440,
     "wof:name": "BF710 (SFO-PPT)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -149.617144, 
-    -17.573463, 
-    -122.370943, 
+    -149.617144,
+    -17.573463,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-149.617144,-17.573463]],"type":"MultiPoint"}

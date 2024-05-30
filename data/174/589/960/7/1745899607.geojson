@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210607-D-KLM-5051",
     "sfomuseum:flight_number": [
-      "KLM5051", 
+      "KLM5051",
       "KL5051"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1623168783,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745899607
+      }
+    ],
     "wof:id": 1745899607,
     "wof:involves": [
-      102534365, 
-      102527513, 
-      1159284613, 
+      102534365,
+      102527513,
+      1159284613,
       -1
     ],
-    "wof:lastmodified": 1623168783,
+    "wof:lastmodified": 1717034445,
     "wof:name": "KL5051 (SFO-JFK)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.787845, 
+    -122.370943,
+    37.61799,
+    -73.787845,
     40.643286
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-73.787845,40.643286]],"type":"MultiPoint"}

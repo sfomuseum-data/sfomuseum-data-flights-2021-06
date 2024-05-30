@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210614-D-BAW-6830",
     "sfomuseum:flight_number": [
-      "BAW6830", 
+      "BAW6830",
       "BA6830"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1623773488,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745933033
+      }
+    ],
     "wof:id": 1745933033,
     "wof:involves": [
-      102531023, 
-      102527513, 
-      1159284021, 
-      -1, 
+      102531023,
+      102527513,
+      1159284021,
+      -1,
       1159283849
     ],
-    "wof:lastmodified": 1623773488,
+    "wof:lastmodified": 1717034440,
     "wof:name": "BA6830 (SFO-MIA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.79047, 
-    -80.296006, 
+    -122.370943,
+    25.79047,
+    -80.296006,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-80.296006,25.79047]],"type":"MultiPoint"}

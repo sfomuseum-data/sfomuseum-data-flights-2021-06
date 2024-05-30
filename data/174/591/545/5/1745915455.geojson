@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102542801,
     "sfomuseum:flight_id": "20210609-A-KLM-607",
     "sfomuseum:flight_number": [
-      "KLM607", 
+      "KLM607",
       "KL607"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1623341153,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745915455
+      }
+    ],
     "wof:id": 1745915455,
     "wof:involves": [
-      102527513, 
-      102542801, 
-      1159284613, 
+      102527513,
+      102542801,
+      1159284613,
       -1
     ],
-    "wof:lastmodified": 1623341153,
+    "wof:lastmodified": 1717034438,
     "wof:name": "KL607 (AMS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    4.782907, 
+    -122.370943,
+    37.61799,
+    4.782907,
     52.314791
   ],
   "geometry": {"coordinates":[[4.782907,52.314791],[-122.370943,37.61799]],"type":"MultiPoint"}

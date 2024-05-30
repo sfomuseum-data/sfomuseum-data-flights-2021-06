@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102531205,
     "sfomuseum:flight_id": "20210613-A-SWA-2516",
     "sfomuseum:flight_number": [
-      "SWA2516", 
+      "SWA2516",
       "WN2516"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1623686894,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745928595
+      }
+    ],
     "wof:id": 1745928595,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102531205, 
+      1159289871,
+      102527513,
+      102531205,
       1159285591
     ],
-    "wof:lastmodified": 1623687486,
+    "wof:lastmodified": 1717034444,
     "wof:name": "WN2516 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.745903, 
+    -122.370943,
+    37.61799,
+    -87.745903,
     41.787532
   ],
   "geometry": {"coordinates":[[-87.745903,41.787532],[-122.370943,37.61799]],"type":"MultiPoint"}

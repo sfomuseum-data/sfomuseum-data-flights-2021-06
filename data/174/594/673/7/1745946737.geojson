@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210618-D-QTR-7688",
     "sfomuseum:flight_number": [
-      "QTR7688", 
+      "QTR7688",
       "QR7688"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1624119246,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745946737
+      }
+    ],
     "wof:id": 1745946737,
     "wof:involves": [
-      102528541, 
-      102527513, 
-      1159286153, 
-      -1, 
+      102528541,
+      102527513,
+      1159286153,
+      -1,
       1159283849
     ],
-    "wof:lastmodified": 1624119246,
+    "wof:lastmodified": 1717034442,
     "wof:name": "QR7688 (SFO-DFW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.90366, 
-    -97.050966, 
+    -122.370943,
+    32.90366,
+    -97.050966,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-97.050966,32.90366]],"type":"MultiPoint"}

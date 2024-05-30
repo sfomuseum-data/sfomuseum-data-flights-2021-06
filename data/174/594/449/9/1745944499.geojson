@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102533795,
     "sfomuseum:flight_id": "20210618-A-ASA-9996",
     "sfomuseum:flight_number": [
-      "ASA9996", 
+      "ASA9996",
       "AS9996"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1624118681,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745944499
+      }
+    ],
     "wof:id": 1745944499,
     "wof:involves": [
-      102527513, 
-      102533795, 
-      1159283813, 
+      102527513,
+      102533795,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1624118681,
+    "wof:lastmodified": 1717034440,
     "wof:name": "AS9996 (LAX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-118.38951,33.942593],[-122.370943,37.61799]],"type":"MultiPoint"}

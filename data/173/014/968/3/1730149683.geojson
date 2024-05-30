@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210601-D-EAQ-3766",
     "sfomuseum:flight_number": [
-      "EAQ3766", 
+      "EAQ3766",
       "QF3766"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1622650225,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730149683
+      }
+    ],
     "wof:id": 1730149683,
     "wof:involves": [
-      102531979, 
-      102527513, 
-      1159284313, 
+      102531979,
+      102527513,
+      1159284313,
       -1
     ],
-    "wof:lastmodified": 1622650225,
+    "wof:lastmodified": 1717034444,
     "wof:name": "QF3766 (SFO-ANC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -149.968401, 
-    37.61799, 
-    -122.370943, 
+    -149.968401,
+    37.61799,
+    -122.370943,
     61.173606
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-149.968401,61.173606]],"type":"MultiPoint"}

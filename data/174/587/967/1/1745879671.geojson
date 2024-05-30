@@ -98,10 +98,13 @@
       1377564293,
       102527513
     ],
-    "wof:lastmodified": 1653096791,
+    "wof:lastmodified": 1717034445,
     "wof:name": "LH454 (FRA-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

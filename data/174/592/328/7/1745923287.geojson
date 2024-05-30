@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210611-D-DAL-433",
     "sfomuseum:flight_number": [
-      "DAL433", 
+      "DAL433",
       "DL433"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1623514359,
     "wof:geomhash": "d81f35c9bd76192177056b7c45b4498c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745923287
+      }
+    ],
     "wof:id": 1745923287,
     "wof:involves": [
-      102527969, 
-      102527513, 
-      1159284261, 
+      102527969,
+      102527513,
+      1159284261,
       -1
     ],
-    "wof:lastmodified": 1623514359,
+    "wof:lastmodified": 1717034440,
     "wof:name": "DL433 (SFO-RDD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.29822, 
+    -122.370943,
+    37.61799,
+    -122.29822,
     40.507596
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.29822,40.507596]],"type":"MultiPoint"}

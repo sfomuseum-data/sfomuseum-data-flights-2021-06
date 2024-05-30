@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210614-D-AAL-1960",
     "sfomuseum:flight_number": [
-      "AAL1960", 
+      "AAL1960",
       "AA1960"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1623773332,
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745932433
+      }
+    ],
     "wof:id": 1745932433,
     "wof:involves": [
-      1159289871, 
-      102528659, 
-      102527513, 
+      1159289871,
+      102528659,
+      102527513,
       1159283849
     ],
-    "wof:lastmodified": 1623773766,
+    "wof:lastmodified": 1717034440,
     "wof:name": "AA1960 (SFO-CLT)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.220744, 
-    -80.942777, 
+    -122.370943,
+    35.220744,
+    -80.942777,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-80.942777,35.220744]],"type":"MultiPoint"}

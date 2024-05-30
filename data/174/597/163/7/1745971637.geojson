@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102533657,
     "sfomuseum:flight_id": "20210626-A-JBU-963",
     "sfomuseum:flight_number": [
-      "JBU963", 
+      "JBU963",
       "B6963"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1624809971,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745971637
+      }
+    ],
     "wof:id": 1745971637,
     "wof:involves": [
-      1159292085, 
-      102527513, 
-      102533657, 
+      1159292085,
+      102527513,
+      102533657,
       1159284583
     ],
-    "wof:lastmodified": 1624810586,
+    "wof:lastmodified": 1717034439,
     "wof:name": "B6963 (MCO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    28.431495, 
-    -81.307537, 
+    -122.370943,
+    28.431495,
+    -81.307537,
     37.61799
   ],
   "geometry": {"coordinates":[[-81.307537,28.431495],[-122.370943,37.61799]],"type":"MultiPoint"}

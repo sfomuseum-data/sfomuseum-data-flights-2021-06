@@ -31,13 +31,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210607-D-AAR-2831",
     "sfomuseum:flight_number": [
-      "AAR2831", 
+      "AAR2831",
       "OZ2831"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -47,26 +47,33 @@
     "wof:country": "US",
     "wof:created": 1623168545,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745898679
+      }
+    ],
     "wof:id": 1745898679,
     "wof:involves": [
-      102556451, 
-      102527513, 
-      1159283917, 
+      102556451,
+      102527513,
+      1159283917,
       -1
     ],
-    "wof:lastmodified": 1623168947,
+    "wof:lastmodified": 1717034445,
     "wof:name": "OZ2831 (SFO-ICN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[126.661632,37.453966]],"type":"MultiPoint"}

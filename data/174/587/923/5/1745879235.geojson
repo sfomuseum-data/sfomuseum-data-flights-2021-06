@@ -92,10 +92,13 @@
       1729792651,
       1159285413
     ],
-    "wof:lastmodified": 1653096790,
+    "wof:lastmodified": 1717034442,
     "wof:name": "AC5311 (PVR-SFO)",
     "wof:parent_id": 1745882407,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

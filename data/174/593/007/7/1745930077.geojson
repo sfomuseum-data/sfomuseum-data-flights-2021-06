@@ -33,40 +33,47 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210613-D-JBU-446",
     "sfomuseum:flight_number": [
-      "JBU446", 
+      "JBU446",
       "B6446"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1623687295,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745930077
+      }
+    ],
     "wof:id": 1745930077,
     "wof:involves": [
-      1159292085, 
-      102530049, 
-      102527513, 
+      1159292085,
+      102530049,
+      102527513,
       1159284583
     ],
-    "wof:lastmodified": 1623687479,
+    "wof:lastmodified": 1717034438,
     "wof:name": "B6446 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-74.177526,40.691243]],"type":"MultiPoint"}

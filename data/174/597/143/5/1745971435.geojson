@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102533243,
     "sfomuseum:flight_id": "20210626-A-DAL-8841",
     "sfomuseum:flight_number": [
-      "DAL8841", 
+      "DAL8841",
       "DL8841"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1624809918,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745971435
+      }
+    ],
     "wof:id": 1745971435,
     "wof:involves": [
-      1159289939, 
-      102527513, 
-      102533243, 
+      1159289939,
+      102527513,
+      102533243,
       1159284261
     ],
-    "wof:lastmodified": 1624810585,
+    "wof:lastmodified": 1717034439,
     "wof:name": "DL8841 (TPA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    27.972892, 
-    -82.530928, 
+    -122.370943,
+    27.972892,
+    -82.530928,
     37.61799
   ],
   "geometry": {"coordinates":[[-82.530928,27.972892],[-122.370943,37.61799]],"type":"MultiPoint"}

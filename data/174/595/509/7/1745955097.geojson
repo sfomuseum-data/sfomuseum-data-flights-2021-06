@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102556451,
     "sfomuseum:flight_id": "20210621-A-KAL-25",
     "sfomuseum:flight_number": [
-      "KAL25", 
+      "KAL25",
       "KE25"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1624377983,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745955097
+      }
+    ],
     "wof:id": 1745955097,
     "wof:involves": [
-      102527513, 
-      102556451, 
-      1159284623, 
+      102527513,
+      102556451,
+      1159284623,
       -1
     ],
-    "wof:lastmodified": 1624377983,
+    "wof:lastmodified": 1717034441,
     "wof:name": "KE25 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[126.661632,37.453966],[-122.370943,37.61799]],"type":"MultiPoint"}

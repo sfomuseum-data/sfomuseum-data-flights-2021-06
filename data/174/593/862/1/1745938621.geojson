@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102533631,
     "sfomuseum:flight_id": "20210616-A-UAL-2762",
     "sfomuseum:flight_number": [
-      "UAL2762", 
+      "UAL2762",
       "UA2762"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1623946084,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745938621
+      }
+    ],
     "wof:id": 1745938621,
     "wof:involves": [
-      1159289993, 
-      102527513, 
-      102533631, 
+      1159289993,
+      102527513,
+      102533631,
       1159285413
     ],
-    "wof:lastmodified": 1623946558,
+    "wof:lastmodified": 1717034445,
     "wof:name": "UA2762 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-87.894364,41.983038],[-122.370943,37.61799]],"type":"MultiPoint"}

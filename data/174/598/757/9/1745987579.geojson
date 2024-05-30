@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102530717,
     "sfomuseum:flight_id": "20210630-A-AAL-2411",
     "sfomuseum:flight_number": [
-      "AAL2411", 
+      "AAL2411",
       "AA2411"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1625155333,
     "wof:geomhash": "b157be63e9453882f41d2e530854b6a2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745987579
+      }
+    ],
     "wof:id": 1745987579,
     "wof:involves": [
-      102527513, 
-      102530717, 
-      1159283849, 
+      102527513,
+      102530717,
+      1159283849,
       1159289871
     ],
-    "wof:lastmodified": 1625156368,
+    "wof:lastmodified": 1717034441,
     "wof:name": "AA2411 (FAT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.768728, 
-    -119.721272, 
+    -122.370943,
+    36.768728,
+    -119.721272,
     37.61799
   ],
   "geometry": {"coordinates":[[-119.721272,36.768728],[-122.370943,37.61799]],"type":"MultiPoint"}

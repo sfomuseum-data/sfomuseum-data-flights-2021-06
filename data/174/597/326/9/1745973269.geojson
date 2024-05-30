@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210626-D-SCX-797",
     "sfomuseum:flight_number": [
-      "SCX797", 
+      "SCX797",
       "SY797"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1624810411,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745973269
+      }
+    ],
     "wof:id": 1745973269,
     "wof:involves": [
-      1159289871, 
-      102533997, 
-      102527513, 
+      1159289871,
+      102533997,
+      102527513,
       1159285227
     ],
-    "wof:lastmodified": 1624810599,
+    "wof:lastmodified": 1717034440,
     "wof:name": "SY797 (SFO-HNL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -157.918416, 
-    21.332508, 
-    -122.370943, 
+    -157.918416,
+    21.332508,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-157.918416,21.332508]],"type":"MultiPoint"}

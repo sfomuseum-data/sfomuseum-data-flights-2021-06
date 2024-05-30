@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527363,
     "sfomuseum:flight_id": "20210601-A-DAL-9970",
     "sfomuseum:flight_number": [
-      "DAL9970", 
+      "DAL9970",
       "DL9970"
     ],
     "sfomuseum:placetype": "flight",
@@ -48,26 +48,33 @@
     "wof:country": "US",
     "wof:created": 1622649846,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730148331
+      }
+    ],
     "wof:id": 1730148331,
     "wof:involves": [
-      1159284261, 
-      1159292085, 
-      102527513, 
+      1159284261,
+      1159292085,
+      102527513,
       102527363
     ],
-    "wof:lastmodified": 1622650400,
+    "wof:lastmodified": 1717034445,
     "wof:name": "DL9970 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-111.980566,40.78217],[-122.370943,37.61799]],"type":"MultiPoint"}

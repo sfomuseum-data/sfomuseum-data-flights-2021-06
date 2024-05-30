@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210619-D-JBU-6137",
     "sfomuseum:flight_number": [
-      "JBU6137", 
+      "JBU6137",
       "B66137"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1624205558,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745949827
+      }
+    ],
     "wof:id": 1745949827,
     "wof:involves": [
-      102533795, 
-      102527513, 
-      1159284583, 
+      102533795,
+      102527513,
+      1159284583,
       -1
     ],
-    "wof:lastmodified": 1624205558,
+    "wof:lastmodified": 1717034444,
     "wof:name": "B66137 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

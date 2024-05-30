@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102555709,
     "sfomuseum:flight_id": "20210604-A-AIC-173",
     "sfomuseum:flight_number": [
-      "AIC173", 
+      "AIC173",
       "AI173"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1622908946,
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745887465
+      }
+    ],
     "wof:id": 1745887465,
     "wof:involves": [
-      1159289989, 
-      102527513, 
-      102555709, 
+      1159289989,
+      102527513,
+      102555709,
       1159283649
     ],
-    "wof:lastmodified": 1622909708,
+    "wof:lastmodified": 1717034440,
     "wof:name": "AI173 (DEL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    28.561954, 
-    77.098117, 
+    -122.370943,
+    28.561954,
+    77.098117,
     37.61799
   ],
   "geometry": {"coordinates":[[77.098117,28.561954],[-122.370943,37.61799]],"type":"MultiPoint"}

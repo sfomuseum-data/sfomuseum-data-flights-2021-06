@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210615-A-AAL-2018",
     "sfomuseum:flight_number": [
-      "AAL2018", 
+      "AAL2018",
       "AA2018"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1623859294,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745934197
+      }
+    ],
     "wof:id": 1745934197,
     "wof:involves": [
-      1159289411, 
-      102527513, 
-      102526751, 
+      1159289411,
+      102527513,
+      102526751,
       1159283849
     ],
-    "wof:lastmodified": 1623860136,
+    "wof:lastmodified": 1717034441,
     "wof:name": "AA2018 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

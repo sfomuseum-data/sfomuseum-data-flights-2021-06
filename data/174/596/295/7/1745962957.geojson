@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210623-D-DAL-9962",
     "sfomuseum:flight_number": [
-      "DAL9962", 
+      "DAL9962",
       "DL9962"
     ],
     "sfomuseum:placetype": "flight",
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1624551118,
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745962957
+      }
+    ],
     "wof:id": 1745962957,
     "wof:involves": [
-      1159289411, 
-      102527529, 
-      102527513, 
+      1159289411,
+      102527529,
+      102527513,
       1159284261
     ],
-    "wof:lastmodified": 1624551371,
+    "wof:lastmodified": 1717034440,
     "wof:name": "DL9962 (SFO-SJC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.363728, 
-    -121.928755, 
+    -122.370943,
+    37.363728,
+    -121.928755,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-121.928755,37.363728]],"type":"MultiPoint"}

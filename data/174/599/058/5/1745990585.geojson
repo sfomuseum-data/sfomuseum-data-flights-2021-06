@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210630-D-UAL-5993",
     "sfomuseum:flight_number": [
-      "UAL5993", 
+      "UAL5993",
       "UA5993"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1625156308,
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745990585
+      }
+    ],
     "wof:id": 1745990585,
     "wof:involves": [
-      102527187, 
-      102527513, 
-      1159285413, 
+      102527187,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1625156308,
+    "wof:lastmodified": 1717034442,
     "wof:name": "UA5993 (SFO-MFR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.874456, 
-    37.61799, 
-    -122.370943, 
+    -122.874456,
+    37.61799,
+    -122.370943,
     42.369651
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.874456,42.369651]],"type":"MultiPoint"}

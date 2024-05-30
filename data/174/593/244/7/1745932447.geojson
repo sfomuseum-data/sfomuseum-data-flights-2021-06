@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210614-D-AAL-369",
     "sfomuseum:flight_number": [
-      "AAL369", 
+      "AAL369",
       "AA369"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1623773336,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745932447
+      }
+    ],
     "wof:id": 1745932447,
     "wof:involves": [
-      1528104575, 
-      102531023, 
-      102527513, 
+      1528104575,
+      102531023,
+      102527513,
       1159283849
     ],
-    "wof:lastmodified": 1623773766,
+    "wof:lastmodified": 1717034440,
     "wof:name": "AA369 (SFO-MIA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.79047, 
-    -80.296006, 
+    -122.370943,
+    25.79047,
+    -80.296006,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-80.296006,25.79047]],"type":"MultiPoint"}

@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102530741,
     "sfomuseum:flight_id": "20210613-A-QTR-4042",
     "sfomuseum:flight_number": [
-      "QTR4042", 
+      "QTR4042",
       "QR4042"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1623686862,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745928501
+      }
+    ],
     "wof:id": 1745928501,
     "wof:involves": [
-      102527513, 
-      102530741, 
-      1159286153, 
-      -1, 
+      102527513,
+      102530741,
+      1159286153,
+      -1,
       1159284583
     ],
-    "wof:lastmodified": 1623686862,
+    "wof:lastmodified": 1717034444,
     "wof:name": "QR4042 (BOS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-71.01475,42.362322],[-122.370943,37.61799]],"type":"MultiPoint"}

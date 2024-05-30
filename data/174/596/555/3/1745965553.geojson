@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210624-D-AAL-1198",
     "sfomuseum:flight_number": [
-      "AAL1198", 
+      "AAL1198",
       "AA1198"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1624637376,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745965553
+      }
+    ],
     "wof:id": 1745965553,
     "wof:involves": [
-      1159289411, 
-      102528541, 
-      102527513, 
+      1159289411,
+      102528541,
+      102527513,
       1159283849
     ],
-    "wof:lastmodified": 1624637832,
+    "wof:lastmodified": 1717034442,
     "wof:name": "AA1198 (SFO-DFW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.90366, 
-    -97.050966, 
+    -122.370943,
+    32.90366,
+    -97.050966,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-97.050966,32.90366]],"type":"MultiPoint"}

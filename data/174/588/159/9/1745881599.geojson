@@ -99,10 +99,13 @@
       1377564285,
       102532939
     ],
-    "wof:lastmodified": 1653096794,
+    "wof:lastmodified": 1717034444,
     "wof:name": "UA694 (SFO-KOA)",
     "wof:parent_id": 1745882291,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

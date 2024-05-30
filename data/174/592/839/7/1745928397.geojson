@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102530741,
     "sfomuseum:flight_id": "20210613-A-JBU-633",
     "sfomuseum:flight_number": [
-      "JBU633", 
+      "JBU633",
       "B6633"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1623686834,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745928397
+      }
+    ],
     "wof:id": 1745928397,
     "wof:involves": [
-      1159289411, 
-      102527513, 
-      102530741, 
+      1159289411,
+      102527513,
+      102530741,
       1159284583
     ],
-    "wof:lastmodified": 1623687485,
+    "wof:lastmodified": 1717034444,
     "wof:name": "B6633 (BOS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-71.01475,42.362322],[-122.370943,37.61799]],"type":"MultiPoint"}

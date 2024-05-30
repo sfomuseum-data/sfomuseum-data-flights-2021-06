@@ -99,10 +99,13 @@
       1159292085,
       102521851
     ],
-    "wof:lastmodified": 1653096794,
+    "wof:lastmodified": 1717034444,
     "wof:name": "UA1783 (SFO-AUS)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
